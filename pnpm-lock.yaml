@@ -13,6 +13,7 @@ specifiers:
   '@angular/platform-browser-dynamic': ^14.2.0
   '@angular/router': ^14.2.0
   '@types/jasmine': ~4.0.0
+  angular-in-memory-web-api: ^0.14.0
   jasmine-core: ~4.3.0
   karma: ~6.4.0
   karma-chrome-launcher: ~3.1.0
@@ -33,6 +34,7 @@ dependencies:
   '@angular/platform-browser': 14.2.11_c933e1a4f65a51b0a14a07e63de2759e
   '@angular/platform-browser-dynamic': 14.2.11_1b1524e8d82b8a42c952461c24a66d8d
   '@angular/router': 14.2.11_04a7c7f302c59db0bca44d007a0d3f5b
+  angular-in-memory-web-api: 0.14.0_2c5570d554cf0e56c09ae99194289e2d
   rxjs: 7.5.7
   tslib: 2.4.1
   zone.js: 0.11.8
@@ -2324,6 +2326,19 @@ packages:
       require-from-string: 2.0.2
       uri-js: 4.4.1
     dev: true
+
+  /angular-in-memory-web-api/0.14.0_2c5570d554cf0e56c09ae99194289e2d:
+    resolution: {integrity: sha512-8RLFBpXZONDQxYGKiheaYQQl3iydesCrhWLuzDD6AsQDcOF+HEvIuOfBdJaTWKfqyNZNWjHvXzIyT0bUIunb/A==}
+    peerDependencies:
+      '@angular/common': ^14.0.0
+      '@angular/core': ^14.0.0
+      rxjs: ^6.5.3 || ^7.4.0
+    dependencies:
+      '@angular/common': 14.2.11_@angular+core@14.2.11+rxjs@7.5.7
+      '@angular/core': 14.2.11_rxjs@7.5.7+zone.js@0.11.8
+      rxjs: 7.5.7
+      tslib: 2.4.1
+    dev: false
 
   /ansi-colors/4.1.3:
     resolution: {integrity: sha512-/6w/C21Pm1A7aZitlI5Ni/2J6FFQN8i1Cvz3kHABAAbw93v/NlvKdVOqz7CCWz/3iv/JplRSEEZ83XION15ovw==}
