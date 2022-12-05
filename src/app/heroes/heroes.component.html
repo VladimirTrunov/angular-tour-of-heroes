@@ -7,8 +7,12 @@
     <button type="button" class="delete" title="delete hero" (click)="delete(hero)">X</button>
   </li>
 </ul>
-<div>
+<!--<div>
   <label for="new-hero">Hero name: </label>
   <input id="new-hero" #heroName/>
+  <label for="power">Hero Power</label>
+  <select class="form-control" id="power" required>
+    <option *ngFor="let pow of powers" [value]="pow">{{pow}}</option>
+  </select>
   <button type="button" class="add-button" (click)="add(heroName.value); heroName.value=''">Add hero</button>
-</div>
+</div>-->
